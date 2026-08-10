@@ -4,3 +4,5 @@ version = "0.1.0"
 description = "A scaffold for intelligent log generation and analysis"
 readme = "README.md"
 requires-python = ">=3.10"
+[tool.pytest.ini_options]
+pythonpath = ["src"]
