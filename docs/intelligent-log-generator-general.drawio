@@ -1,0 +1,37 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="lopL5FJC8Rut8QtL2t72">
+    <mxGraphModel dx="660" dy="506" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SG8f5oEwE3mqBHRTGBHV-4" edge="1" parent="1" source="SG8f5oEwE3mqBHRTGBHV-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="SG8f5oEwE3mqBHRTGBHV-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SG8f5oEwE3mqBHRTGBHV-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="INGESTOR" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SG8f5oEwE3mqBHRTGBHV-5" edge="1" parent="1" source="SG8f5oEwE3mqBHRTGBHV-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SG8f5oEwE3mqBHRTGBHV-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SG8f5oEwE3mqBHRTGBHV-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ANALYZER" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="SG8f5oEwE3mqBHRTGBHV-9" edge="1" parent="1" source="SG8f5oEwE3mqBHRTGBHV-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="SG8f5oEwE3mqBHRTGBHV-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SG8f5oEwE3mqBHRTGBHV-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="GENERATOR" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="SG8f5oEwE3mqBHRTGBHV-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="normalized log records" vertex="1">
+          <mxGeometry height="30" width="140" x="100" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="SG8f5oEwE3mqBHRTGBHV-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="LogModel" vertex="1">
+          <mxGeometry height="30" width="70" x="100" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="SG8f5oEwE3mqBHRTGBHV-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Generated log" vertex="1">
+          <mxGeometry height="80" width="120" x="40" y="380" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
