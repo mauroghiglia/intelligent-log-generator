@@ -29,3 +29,21 @@ class LogParser:
             message=message,
             raw=raw,
         )
+
+    def parse_all(self, lines: list[str]) -> list[LogRecord]:
+        entries: list[list[str]] = []
+        current_entry: list[str] = []
+
+        for line in lines:
+            if re.match(r"^\d{4}-\d{2}-\d{2} ", line):
+                if current_entry:
+                    entries.append(current_entry)
+
+                current_entry = [line]
+            else:
+                current_entry.append(line)
+
+        if current_entry:
+            entries.append(current_entry)
+
+        return [self.parse(entry) for entry in entries]
